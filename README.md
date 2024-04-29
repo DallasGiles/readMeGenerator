@@ -33,5 +33,5 @@
 :octocat: Find me on GitHub: [dallasgiles](https://github.com/dallasgiles)<br />
 <br />
 
-_This README was generated with ❤️ by [README-generator](https://dallasgiles.github.io/readMeGenerator/) 🔥🔥🔥_
+_This README was generated with ❤️ by [README-generator](https://github.com/DallasGiles/readMeGenerator?tab=readme-ov-file)_
     # readMeGenerator

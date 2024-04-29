@@ -34,7 +34,7 @@ function generateReadme(answers) {
 :octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
 <br />
 
-_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
+_This README was generated with ❤️ by [README-generator](https://github.com/DallasGiles/readMeGenerator?tab=readme-ov-file) 🔥🔥🔥_
     `;
   }
   
