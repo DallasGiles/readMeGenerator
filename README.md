@@ -31,6 +31,7 @@
  undefined<br />
 <br />
 :octocat: Find me on GitHub: [dallasgiles](https://github.com/dallasgiles)<br />
+And my email: dallascgiles@gmail.com
 <br />
 
 _This README was generated with ❤️ by [README-generator](https://github.com/DallasGiles/readMeGenerator?tab=readme-ov-file)_
