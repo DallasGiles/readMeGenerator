@@ -1,10 +1,10 @@
 
-<h1 align="center">PROJECT TITLE </h1>
+<h1 align="center">readme gen 👋</h1>
   
-![badge](https://img.shields.io/badge/license-undefined-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
 ## Description
- here is a brief description
+🔍 creates readmes
 
 ## Table of Contents
 - [Description](#description)
@@ -13,25 +13,30 @@
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+- [License](#license)
 
 ## Installation
- there is no installation process
+💾 npm i 
 
 ## Usage
- many things
-
+💻 creating readmes
 
 ## Contributing
- just me
+👪 just me
 
 ## Tests
-✏️ no test included
+✏️ no testing included here
 
 ## Questions
- undefined<br />
-<br />
-:octocat: Find me on GitHub: [dallasgiles](https://github.com/dallasgiles)<br />
+✋ If you have any questions, feel free to contact me:
+
+- :octocat: GitHub: [DallasGiles](https://github.com/DallasGiles)
+- 📧 Email: [dallascgiles@gmail.com](mailto:dallascgiles@gmail.com)
+
+## License
+📝 This project is licensed under the MIT license.
+  
 <br />
 
-_This README was generated with ❤️ by [README-generator](https://github.com/DallasGiles/readMeGenerator?tab=readme-ov-file)_
-    # readMeGenerator
+_This README was generated with ❤️ by [README-generator](https://github.com/DallasGiles/readMeGenerator?tab=readme-ov-file) 🔥🔥🔥_
+    

@@ -14,13 +14,13 @@ function generateReadme(answers) {
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+- [License](#license)
 
 ## Installation
 💾 ${answers.installation}
 
 ## Usage
 💻 ${answers.use}
-
 
 ## Contributing
 👪 ${answers.contributing}
@@ -29,13 +29,18 @@ function generateReadme(answers) {
 ✏️ ${answers.tests}
 
 ## Questions
-✋ ${answers.questions}<br />
-<br />
-:octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+✋ If you have any questions, feel free to contact me:
+
+- :octocat: GitHub: [${answers.username}](https://github.com/${answers.username})
+- 📧 Email: [${answers.email}](mailto:${answers.email})
+
+## License
+📝 This project is licensed under the ${answers.license} license.
+  
 <br />
 
 _This README was generated with ❤️ by [README-generator](https://github.com/DallasGiles/readMeGenerator?tab=readme-ov-file) 🔥🔥🔥_
     `;
-  }
-  
-  module.exports = generateReadme;
+}
+
+module.exports = generateReadme;

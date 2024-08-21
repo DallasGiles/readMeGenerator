@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// Required packages for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 const util = require("util");
-const generateReadMe = require("./genReadme.js")
+const generateReadMe = require("./genReadme.js");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 function promptUser(){
@@ -30,7 +30,7 @@ function promptUser(){
         {
             type: "input",
             name: "contributing",
-            message: "Who are the contributors of this projects?"
+            message: "Who are the contributors of this project?"
         },
         {
             type: "input",
@@ -42,24 +42,36 @@ function promptUser(){
             name: "username",
             message: "Please enter your GitHub username: "
         },
+        {
+            type: "input",
+            name: "email",
+            message: "Please enter your email address: "
+        },
+        {
+            type: "input",
+            name: "license",
+            message: "What license is the project under? "
+        },
     ]);
 }
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// Function to write the README file
+function writeToFile(fileName, data) {
+    return writeFileAsync(fileName, data);
+}
 
-// TODO: Create a function to initialize app
+// Function to initialize the app
 async function init() {
     try {
         const answers = await promptUser();
         const generateDoc = generateReadMe(answers);
         
-        await writeFileAsync('./README.md', generateDoc);
+        await writeToFile('./README.md', generateDoc);
         console.log('Successfully created README.md');
     }   catch(err) {
         console.log(err);
     }
-  }
+}
 
-// Function call to initialize app
+// Function call to initialize the app
 init();
